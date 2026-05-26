@@ -1,9 +1,9 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>DevOps Maturity Assessment — Swift Tech Co.</title>
+<title>DevOps Maturity Assessment â€” Swift Tech Co.</title>
 <meta name="description" content="Free DevOps maturity self-assessment. Score your CI/CD, IaC, monitoring, secrets management, disaster recovery, containerization, and security scanning. Get your maturity level and top gaps.">
 <link rel="canonical" href="https://swifttechco.com/tools/devops-maturity-assessment">
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -120,13 +120,13 @@
   </table>
 </div>
 <footer>
-  <p style="margin-bottom:8px">Built and maintained by <a href="https://swifttechco.com" target="_blank">Swift Tech Co.</a> — Cloud Infrastructure, DevOps, and Enterprise Software</p>
-  <p>MIT License — free to use, fork, and embed. <a href="https://swifttechco.com/contact" target="_blank">Contact us</a> for a full DevOps audit.</p>
+  <p style="margin-bottom:8px">Built and maintained by <a href="https://swifttechco.com" target="_blank">Swift Tech Co.</a> â€” Cloud Infrastructure, DevOps, and Enterprise Software</p>
+  <p>MIT License â€” free to use, fork, and embed. <a href="https://swifttechco.com/contact" target="_blank">Contact us</a> for a full DevOps audit.</p>
 </footer>
 
 <script>
 const QS=[
-  {id:'cicd',label:'CI/CD pipeline',opts:['No CI/CD — manual deploys','Partial — some automation','Full CI/CD — auto-deploy on merge']},
+  {id:'cicd',label:'CI/CD pipeline',opts:['No CI/CD â€” manual deploys','Partial â€” some automation','Full CI/CD â€” auto-deploy on merge']},
   {id:'iac',label:'Infrastructure as Code',opts:['Manual server config','Partial IaC (some scripts)','Full IaC (Terraform / Pulumi)']},
   {id:'mon',label:'Monitoring and alerting',opts:['No monitoring','Basic uptime checks','Full observability (logs + metrics + traces)']},
   {id:'dep',label:'Deployment time',opts:['Over 30 minutes or manual','5 to 30 minutes','Under 5 minutes (automated)']},
@@ -179,7 +179,7 @@ function assess(){
   document.getElementById('result').style.borderColor=color+'33';
   document.getElementById('result').style.background='rgba(255,255,255,0.02)';
   const gapsEl=document.getElementById('gaps-list');
-  gapsEl.innerHTML=gaps.slice(0,4).map(g=>`<div class="gap-item">→ ${g}</div>`).join('')||(pct===100?'<div class="gap-item" style="color:#22c55e">Elite level — no major gaps found.</div>':'');
+  gapsEl.innerHTML=gaps.slice(0,4).map(g=>`<div class="gap-item">â†’ ${g}</div>`).join('')||(pct===100?'<div class="gap-item" style="color:#22c55e">Elite level â€” no major gaps found.</div>':'');
   const r=document.getElementById('result');r.classList.add('show');r.scrollIntoView({behavior:'smooth',block:'nearest'});
 }
 
@@ -187,3 +187,4 @@ buildQuestions();
 </script>
 </body>
 </html>
+
