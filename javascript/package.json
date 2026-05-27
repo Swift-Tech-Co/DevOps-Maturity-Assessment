@@ -1,0 +1,12 @@
+{
+  "name": "devops-maturity-assessment",
+  "version": "1.0.0",
+  "description": "DevOps maturity self-assessment across 7 dimensions — Swift Tech Co.",
+  "main": "calculator.js",
+  "scripts": {
+    "start": "node cli.js"
+  },
+  "keywords": ["devops", "maturity", "assessment", "cicd", "swift-tech-co"],
+  "license": "MIT",
+  "homepage": "https://swifttechco.com/services/devops/devops-as-a-service"
+}
