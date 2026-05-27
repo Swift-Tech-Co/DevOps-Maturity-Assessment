@@ -1,5 +1,15 @@
 ﻿# DevOps Maturity Assessment
+[![npm](https://img.shields.io/npm/v/devops-maturity-assessment.svg)](https://www.npmjs.com/package/devops-maturity-assessment) [![npm downloads](https://img.shields.io/npm/dm/devops-maturity-assessment.svg)](https://www.npmjs.com/package/devops-maturity-assessment)
 
+## Install
+
+```bash
+npm install devops-maturity-assessment
+```
+
+```javascript
+const calc = require('devops-maturity-assessment');
+```
 [![MIT License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE) [![Interactive Tool](https://img.shields.io/badge/Interactive-Tool-informational)](https://swifttechco.com) [![Swift Tech Co.](https://img.shields.io/badge/Swift%20Tech-Co.-gold)](https://swifttechco.com)
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-brightgreen)](https://swifttechco.com)
